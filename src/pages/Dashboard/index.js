@@ -55,7 +55,7 @@ function Dashboard() {
       </Profile>
 
       <Curriculum>
-        <h1>-------- Experiências --------</h1>
+        <h1>Experiências</h1>
 
         <Experience>
           <tbody>
@@ -111,7 +111,7 @@ function Dashboard() {
           </tbody>
         </Experience>
 
-        <Title>-------- Conhecimentos --------</Title>
+        <Title>Conhecimentos</Title>
         <Know>
           <li>
             <img src={reactLogo} alt="react" />

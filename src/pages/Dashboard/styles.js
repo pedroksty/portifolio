@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  max-width: 880px;
+  max-width: 1000px;
   height: 100%;
   margin: 20px auto 0;
   border-radius: 4px;
@@ -15,16 +15,30 @@ export const Profile = styled.div`
   flex-direction: row;
   width: 100%;
   height: 30%;
+  padding: 20px;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   img {
     height: 250px;
-    width: 250px;
+    width: 325px;
     border-radius: 50%;
+
+    @media (max-width: 700px) {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      margin: 5px auto;
+    }
   }
 
   aside {
-    width: 60%;
-    margin-left: 32px;
+    width: 100%;
+    margin-left: 16px;
     h1 {
       margin-bottom: 4px;
       text-align: right;
@@ -32,6 +46,7 @@ export const Profile = styled.div`
 
     p {
       margin-top: 12px;
+      font-size: 20px;
     }
   }
 `;
@@ -88,6 +103,13 @@ export const Know = styled.ul`
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
   list-style: none;
+
+  @media (max-width: 940px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   h1 {
     margin-top: 30px;
