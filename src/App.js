@@ -1,21 +1,17 @@
-import React from 'react';
-import {BrowserRouter } from 'react-router-dom'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import Routes from './routes'
+import Routes from "./routes";
 
-import './Global.css'
-
-import {GlobalStyles} from './Global'
+import { GlobalStyles } from "./Global";
 
 function App() {
   return (
     <>
       <GlobalStyles />
       <BrowserRouter>
-      
         <Routes />
       </BrowserRouter>
-
     </>
   );
 }
