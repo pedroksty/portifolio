@@ -1,7 +1,11 @@
 import React from "react";
 
-function App() {
-  return <h1>Em Construção</h1>;
-}
+// import { Container } from './styles';
+
+import "./styles/global.css";
+
+const App: React.FC = () => {
+  return <div />;
+};
 
 export default App;
