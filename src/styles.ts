@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const Container = styled(motion.div)`
-  width: 500px;
-  height: 415px;
+  width: 445px;
+  height: 420px;
   margin: 0;
   padding: 15px;
   background: rgba(255, 255, 255, 0.2);
@@ -18,9 +18,9 @@ export const Container = styled(motion.div)`
 `;
 
 export const Content = styled(motion.div)`
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-direction: column;
 
   img {
@@ -45,20 +45,22 @@ export const TextArea = styled(motion.div)`
 
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   p {
     margin-bottom: 12px;
     font-weight: 700;
     color: #fff;
-    font-size: 34px;
+    font-size: 38px;
     margin: 0;
-    display: block;
+    text-align: center;
   }
 
   @media (max-width: 700px) {
     p {
       max-width: 235px;
-      font-size: 26px;
+      font-size: 28px;
+      text-align: center;
     }
   }
 `;
