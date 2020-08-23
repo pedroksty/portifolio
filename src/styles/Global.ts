@@ -11,5 +11,7 @@ export default createGlobalStyle`
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #d0e, #91f);
+
+    font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 `;
